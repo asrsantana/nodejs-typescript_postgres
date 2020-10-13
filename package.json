@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "concurrently \"tsc --watch\" \"nodemon src/index.ts\"",
     "build": "npm tsc"
   },
   "author": "",

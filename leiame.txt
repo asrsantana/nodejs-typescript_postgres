@@ -1,0 +1,13 @@
+
+	npm init 									=> cria o arquivo package.json
+	npm i express 						=> instala o express
+	npm i typescript -D 			=> Instala as dependencias para uso do typescript	
+	npx tsc --init 						=> cria um arquivo de configuração para transpilação do typescript
+	npx tsc 									=> faz a transpilação de typescript para javascript 	
+	npm i pg									=> instala os drivers de conexão com postgres	
+	npm i nodemon -D					=> instala o nodemon	
+	npm i concurrently -D			=> permite executar multiplos comandos em um único comando	
+	npm i @types/express			=> instala os tipos para o express	
+	npm i @types/pg -D				=> instala os tipo para postgres
+	
+	
